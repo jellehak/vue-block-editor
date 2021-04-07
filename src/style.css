@@ -1,0 +1,38 @@
+.CanvasBase {
+    outline: none;
+    display:flex;
+    flex-grow:1;
+    min-height: 100px;
+    margin:0;
+    padding:0;
+  }
+  .CanvasBase__overlay {
+    position: absolute;
+  }
+
+  .draggable {
+    cursor: move;
+}
+
+.hover {
+/* stroke: blue; */
+/* stroke-width: 1; */
+}
+
+.selected {
+/* stroke: greenyellow; */
+/* stroke-width: 1; */
+}
+
+.CanvasSelector {
+    /* fill:rgb(0,0,255); */
+    fill: transparent;
+    stroke-width: 3;
+    stroke: darkorange;
+    stroke-dasharray:4;
+}
+
+.CanvasToolbar {
+    display: flex;
+    align-items: center;
+}

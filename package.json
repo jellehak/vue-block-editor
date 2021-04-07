@@ -1,0 +1,21 @@
+{
+  "name": "vue-block-editor",
+  "version": "1.0.0",
+  "description": "> Canvas drawing for Vue",
+  "main": "./dist/library.ssr.js",
+  "module": "./dist/library.esm.js",
+  "browser": "./dist/library.js",
+  "unpkg": "./dist/library.js",
+  "scripts": {
+    "dev": "rollup -w -c",
+    "build": "npx rollup -c --environment BUILD:production",
+    "start": "npx browser-sync --watch ."
+  },
+  "keywords": [],
+  "author": "Jelle",
+  "license": "ISC",
+  "dependencies": {
+    "rollup": "^2.44.0",
+    "rollup-plugin-vue": "^5.1.9"
+  }
+}
